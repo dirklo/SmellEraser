@@ -1,0 +1,115 @@
+body {
+    background: #eae2b7;
+    font-family: "Nunito", sans-serif;
+}
+
+#titleLogo {
+    inline-size: 60%;
+}
+
+#navDiv {
+    height: 68px;
+}
+
+h1{
+    font-family: 'Syne Tactile', cursive;
+    font-size: 4rem;
+}
+@media (max-width: 1000px) {
+    .mainTitle {
+        font-size: 3rem;
+    }
+}
+
+.blurb h2 {
+   color: #556ae4;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #2046f0;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.hide {
+    display: none;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.lead {
+    color: turquoise;
+}
+
+.pad {
+    margin-top:65px;
+}
+#logo {
+    inline-size: 1.8em;
+
+}
+
+#product1 {
+    border-radius: 50%;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: #f77f00;
+    overflow: hidden;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #fcbf49;
+}
+
+#mainNavbar .navbar-brand {
+    color: #fcbf49;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #fcbf49;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: #ffcdb2;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+    .nav-item {
+        font-size: 1rem;
+    }
+    .navbar-brand a {
+        font-size: .5rem;
+    }
+}
+
+
+
+
