@@ -16,3 +16,4 @@ $(document).click(function (event) {
         $navbar.collapse('hide');
     }
 });
+

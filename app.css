@@ -1,69 +1,15 @@
-body {
-    background: #eae2b7;
-    font-family: "Nunito", sans-serif;
-}
-
-#titleLogo {
-    inline-size: 60%;
-}
+/* navbar */
 
 #navDiv {
     height: 68px;
-}
-
-h1{
-    font-family: 'Syne Tactile', cursive;
-    font-size: 4rem;
-}
-@media (max-width: 1000px) {
-    .mainTitle {
-        font-size: 3rem;
-    }
-}
-
-.blurb h2 {
-   color: #556ae4;
-   font-weight: 100;
-   font-size: 2.5rem;
-}
-
-.blurb p {
-    color: #2046f0;
-    font-weight: 100;
-    font-size: 1.125rem;
-    line-height: 2;
-}
-
-.hide {
-    display: none;
-}
-
-.content {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.lead {
-    color: turquoise;
-}
-
-.pad {
-    margin-top:65px;
-}
-#logo {
-    inline-size: 1.8em;
-
-}
-
-#product1 {
-    border-radius: 50%;
 }
 
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 400;
     background-color: #f77f00;
-    overflow: hidden;    
+    overflow: hidden;
+    border-radius: 20px;    
 }
 
 #mainNavbar .nav-link {
@@ -80,18 +26,79 @@ h1{
     font-size: 1.5rem;
 }
 
-#headingGroup span {
-    color: #fcbf49;
-}
-
-#headingGroup h1 {
-    font-weight: 100;
-    font-size: 4rem;
-}
-
 .navbar.scrolled {
     background: #ffcdb2;
     transition: background 500ms;
+}
+
+.navbar-toggler {
+    margin-top: 0px;
+}
+
+@media (max-width: 865px) {
+    .nav-item {
+        font-size: .8rem;
+    }
+    .navbar-brand a {
+        font-size: .3rem;
+    }
+}
+
+#logo {
+    inline-size: 1.8em;
+
+}
+
+
+/* Main Page */
+#titleLogo {
+    inline-size: 60%;
+}
+
+body {
+    background: #eae2b7;
+    font-family: "Nunito", sans-serif;
+}
+
+img {
+   border-radius:30px;
+}
+
+h1 {
+    font-family: 'Syne Tactile', cursive;
+    font-size: 4rem;
+}
+
+.blurb h2 {
+    color: #556ae4;
+    font-weight: 100;
+    font-size: 2.5rem;
+ }
+ 
+ .blurb p {
+     color: #2046f0;
+     font-weight: 100;
+     font-size: 1.125rem;
+     line-height: 2;
+ }
+
+ .pad {
+    margin-top:65px;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.lead {
+    color: turquoise;
+}
+
+@media (max-width: 1000px) {
+    .mainTitle {
+        font-size: 3rem;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -106,9 +113,64 @@ h1{
         font-size: 1rem;
     }
     .navbar-brand a {
-        font-size: .5rem;
+        font-size: .4rem;
     }
 }
+
+
+
+/* Product Page */
+
+#price {
+    font-size: 3em;
+    text-decoration: underline black;
+}
+
+#cartDiv {
+    background-color: whitesmoke;
+    border-radius: 20px;; 
+    padding: 10px 20px;
+}
+
+.scent {
+    border-radius: 50%;
+}
+
+.center {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.scentSelect {
+    width: 10em;
+}
+
+button a {
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+#number {
+    width: 3em;
+    border-radius: 10px;
+}
+
+@media (max-width: 555px) {
+    #totalChargeDisplay{
+        font-size: 40px;
+    }
+}
+
+
+
+
+
+
 
 
 
