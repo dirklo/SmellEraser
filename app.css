@@ -166,6 +166,12 @@ button a {
     }
 }
 
+@media (max-width: 555px) {
+    #compliment {
+        font-size: 40px;
+    }
+}
+
 
 
 
